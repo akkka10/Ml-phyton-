@@ -23,7 +23,7 @@ forecast = model_fit.forecast(steps=10)
 
 plt.figure(figsize=(10,5))
 plt.plot(dataSeries, label="Original Data")
-plt.plot(range(len(dataSeries), len(dataSeries) + 10), forecast, label="Forecast", color="red")
+plt.plot(range(len(dataSeries), len(dataSeries) + 10), forecast, label="Forecast", color="red") #from end to next 10 of 
 plt.title("Original Data and Forecast")
 plt.show()
-plt.legend()
+plt.legend() #add a box
