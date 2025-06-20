@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\ASUS\.vscode\ML\personality_dataset.csv")
+df = pd.read_csv(r"personality_dataset.csv")
 
 # 1. Handle missing values (fill numeric with mean, categorical with mode)
 for col in df.columns:
